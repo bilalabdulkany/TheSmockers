@@ -11,5 +11,10 @@ public class HomeController {
 	public ModelAndView mainView() {
 		return new ModelAndView("main");
 	}
+	
+	@RequestMapping(value="/gallery",method= {RequestMethod.GET})
+	public ModelAndView getGallery() {
+		return new ModelAndView("gallery");
+	}
 
 }

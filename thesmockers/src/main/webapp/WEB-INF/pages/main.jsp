@@ -8,7 +8,7 @@ Licence URI: http://www.os-templates.com/template-terms
 -->
 <html>
 <head>
-<title>Geodarn</title>
+<title>The Smockers</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="${pageContext.request.contextPath}/resources/styles/layout.css" rel="stylesheet" type="text/css" media="all">
@@ -18,13 +18,14 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- Top Background Image Wrapper -->
-<div class="bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');"> 
+<div class="bgded overlay" style="background-image:url('${pageContext.request.contextPath}/resources/images/demo/backgrounds/01.png');"> 
   <!-- ################################################################################################ -->
   <div class="wrapper row1">
     <header id="header" class="hoc clear"> 
       <!-- ################################################################################################ -->
       <div id="logo" class="fl_left">
-        <h1><a href="index.html">Geodarn</a></h1>
+        <h1><a href="index.html">The Smockers</a></h1>
+        <b>Everything Smocking & Crocheting</b>
       </div>
       <nav id="mainav" class="fl_right">
         <ul class="clear">
@@ -109,7 +110,7 @@ Licence URI: http://www.os-templates.com/template-terms
     </div>
     <ul class="nospace group services">
       <li class="one_third first active">
-        <article class="bgded overlay" style="background-image:url('images/demo/320x340.png');">
+        <article class="bgded overlay" style="background-image:url('${pageContext.request.contextPath}/resources/images/demo/320x340.png');">
           <div class="txtwrap"><i class="block fa fa-4x fa-apple"></i>
             <h6 class="heading">Ullamcorper</h6>
             <p>Lacus eget nullam in ornare magna nam vitae volutpat justo tincidunt&hellip;</p>
@@ -118,7 +119,7 @@ Licence URI: http://www.os-templates.com/template-terms
         </article>
       </li>
       <li class="one_third">
-        <article class="bgded overlay" style="background-image:url('images/demo/320x340.png');">
+        <article class="bgded overlay" style="background-image:url('${pageContext.request.contextPath}/resources/images/demo/320x340.png');">
           <div class="txtwrap"><i class="block fa fa-4x fa-child"></i>
             <h6 class="heading">Malesuada</h6>
             <p>Lacus donec molestie sodales ut nunc felis malesuada quis semper fringilla&hellip;</p>
@@ -127,7 +128,7 @@ Licence URI: http://www.os-templates.com/template-terms
         </article>
       </li>
       <li class="one_third active">
-        <article class="bgded overlay" style="background-image:url('images/demo/320x340.png');">
+        <article class="bgded overlay" style="background-image:url('${pageContext.request.contextPath}/resources/images/demo/320x340.png');">
           <div class="txtwrap"><i class="block fa fa-4x fa-chrome"></i>
             <h6 class="heading">Facilisis</h6>
             <p>Nec velit mauris molestie dui et dignissim vestibulum diam tortor cursus&hellip;</p>
@@ -136,7 +137,7 @@ Licence URI: http://www.os-templates.com/template-terms
         </article>
       </li>
       <li class="one_third first">
-        <article class="bgded overlay" style="background-image:url('images/demo/320x340.png');">
+        <article class="bgded overlay" style="background-image:url('${pageContext.request.contextPath}/resources/images/demo/320x340.png');">
           <div class="txtwrap"><i class="block fa fa-4x fa-lock"></i>
             <h6 class="heading">Venenatis</h6>
             <p>Phasellus ut tortor vel mattis lorem dui tortor amet odio quis metus varius&hellip;</p>
@@ -145,7 +146,7 @@ Licence URI: http://www.os-templates.com/template-terms
         </article>
       </li>
       <li class="one_third active">
-        <article class="bgded overlay" style="background-image:url('images/demo/320x340.png');">
+        <article class="bgded overlay" style="background-image:url('${pageContext.request.contextPath}/resources/images/demo/320x340.png');">
           <div class="txtwrap"><i class="block fa fa-4x fa-rocket"></i>
             <h6 class="heading">Malesuada</h6>
             <p>Vitae est sed rhoncus rutrum ligula quis placerat quisque nec lacinia nisi&hellip;</p>
@@ -154,7 +155,7 @@ Licence URI: http://www.os-templates.com/template-terms
         </article>
       </li>
       <li class="one_third">
-        <article class="bgded overlay" style="background-image:url('images/demo/320x340.png');">
+        <article class="bgded overlay" style="background-image:url('${pageContext.request.contextPath}/resources/images/demo/320x340.png');">
           <div class="txtwrap"><i class="block fa fa-4x fa-train"></i>
             <h6 class="heading">Ultricies</h6>
             <p>Venenatis in eget cursus lorem integer vulputate enim vel facilisis sapien&hellip;</p>
@@ -198,11 +199,11 @@ Licence URI: http://www.os-templates.com/template-terms
         <p>Ex suspendisse vestibulum turpis luctus pretium posuere vestibulum feugiat non metus quis vitae&hellip;</p>
         <footer><a class="btn" href="#">Read More</a></footer>
       </div>
-      <article class="one_third"><a href="#"><img class="btmspace-30" src="images/demo/320x210.png" alt=""></a>
+      <article class="one_third"><a href="#"><img class="btmspace-30" src="${pageContext.request.contextPath}/resources/images/demo/320x210.png" alt=""></a>
         <h6 class="nospace font-x1">Sapien porttitor ut</h6>
         <p>Dignissim praesent consectetur nec tellus ut rutrum nam laoreet finibus mattis integer ullamcorper arcu&hellip;</p>
       </article>
-      <article class="one_third"><a href="#"><img class="btmspace-30" src="images/demo/320x210.png" alt=""></a>
+      <article class="one_third"><a href="#"><img class="btmspace-30" src="${pageContext.request.contextPath}/resources/images/demo/320x210.png" alt=""></a>
         <h6 class="nospace font-x1">Praesent sed blandit</h6>
         <p>Pellentesque vehicula dictum ligula tellus convallis nisl vel scelerisque quam ligula a mauris quisque&hellip;</p>
       </article>
@@ -213,7 +214,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row4 bgded overlay" style="background-image:url('images/demo/backgrounds/02.png');">
+<div class="wrapper row4 bgded overlay" style="background-image:url('${pageContext.request.contextPath}/resources/images/demo/backgrounds/02.png');">
   <footer id="footer" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div class="one_third first">
@@ -263,9 +264,9 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
 <!-- JAVASCRIPTS -->
-<script src="${pageContext.request.contextPath}/scripts/jquery.min.js"></script>
-<script src="${pageContext.request.contextPath}/scripts/jquery.backtotop.js"></script>
-<script src="${pageContext.request.contextPath}/scripts/jquery.mobilemenu.js"></script>
-<script src="${pageContext.request.contextPath}/scripts/jquery.flexslider-min.js"></script>
+<script src="${pageContext.request.contextPath}/resources/scripts/jquery.min.js"></script>
+<script src="${pageContext.request.contextPath}/resources/scripts/jquery.backtotop.js"></script>
+<script src="${pageContext.request.contextPath}/resources/scripts/jquery.mobilemenu.js"></script>
+<script src="${pageContext.request.contextPath}/resources/scripts/jquery.flexslider-min.js"></script>
 </body>
 </html>
